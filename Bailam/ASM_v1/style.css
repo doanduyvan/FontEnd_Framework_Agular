@@ -4,3 +4,9 @@
 .bg{
     background-color: #F3F3FA;
 }
+
+.v-header .nav-link{
+    /* color: #fff; */
+    font-weight: 600;
+    
+}
