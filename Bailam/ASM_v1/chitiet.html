@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tracnghiem</title>
+    <title>chitiet</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,7 +20,7 @@
 
     <div class="bg">
         <!-- header -->
-        <div class="container-fluid bg-white shadow">
+        <div class="container-fluid bg-white">
             <header class="v-header container-xl">
                 <nav class="navbar navbar-expand-md p-0">
                     <div class="container-fluid">
@@ -88,92 +88,124 @@
         </div>
         <!-- main -->
 
-        <div class="container-fluid mt-1">
-            <main class="container-xl pt-5">
-                <nav>
-                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Danh sách câu hỏi</button>
-                      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Thông tin đề thi</button>
-                    </div>
-                  </nav>
-                  <div class="tab-content bg-white mt-3 rounded p-3" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-                        <div class="row cols-row-1 g-4 p-3">
-                            <div class="shadow rounded p-3">
-                                <p class="fs-5 fw-bold">Cau hoi 1</p>
-                                <p class="fs-5">xin chao bajn la ai?</p>
-                                <hr>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item" style="border: none;">
-                                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
-                                            id="firstRadio" checked>
-                                        <label class="form-check-label" for="firstRadio">First radio</label>
-                                    </li>
-                                    <li class="list-group-item list-group-flush" style="border: none;">
-                                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
-                                            id="secondRadio">
-                                        <label class="form-check-label" for="secondRadio">Second radio</label>
-                                    </li>
-                                    <li class="list-group-item" style="border: none;">
-                                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
-                                            id="thirdRadio">
-                                        <label class="form-check-label" for="thirdRadio">Third radio</label>
-                                    </li>
-                                </ul>
+        <div class="container-fluid bg-white mt-1 py-5">
+            <main class="container-xl">
+                <div class="row">
+                    <div class="col-12 col-xl-4 col-md-5">
+                       <div class="shadow p-4 rounded">
+                        <div class="d-flex align-items-center justify-content-center gap-3">
+                            <i class="fa-regular fa-clock fs-4" style="color: #63E6BE;"></i>
+                            <span class="fs-4 fw-medium">30:00</span>
+                        </div>
+                        <div class="row row-cols-2 g-3 mt-3">
+                            <div class="d-flex align-items-center gap-1"><div class="border" style="width: 20px; height: 20px; background-color: #ffffff;"></div><span>Chưa xem</span></div>
+                            <div class="d-flex align-items-center gap-1"><div class="border" style="width: 20px; height: 20px; background-color: #0d6efd;"></div><span>Đánh dấu</span></div>
+                            <div class="d-flex align-items-center gap-1"><div class="border" style="width: 20px; height: 20px; background-color: #1c3988;"></div><span>Đã trả lời</span></div>
+                            <div class="d-flex align-items-center gap-1"><div class="border" style="width: 20px; height: 20px; background-color: #ddd;"></div><span>Chưa trả lời</span></div>
+                        </div>
+                        <p class="text-secondary fs-6 mt-3">Bấm vào ô số để xem câu hỏi</p>
+                        <hr>
+                        <p class="fw-bold">Danh sách câu hỏi</p>
+                            <div class="d-flex gap-2 flex-wrap ms-3">
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+                                <button class="v-answer border btn"><span class="fw-bold">1</span></button>
+
                             </div>
-
-                            <div class="shadow rounded p-3">
-                                <p class="fs-5 fw-bold">Cau hoi 2</p>
-                                <p class="fs-5">xin chao bajn la ai?</p>
+                        <div class="mt-3">
+                            <button class="btn btn-primary w-100">Nộp bài</button>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="col-12 col-xl-8 col-md-7 mt-4 mt-md-0">
+                        <div class="shadow rounded p-4">
+                                <div class="d-flex justify-content-between gap-3">
+                                    <h5>Câu 3</h5>
+                                    <div>
+                                        <input type="checkbox" class="form-check-input" id="question1">
+                                    <label class="form-check-label" for="question1">Đánh dấu câu hỏi</label>
+                                    </div>
+                                </div>
+                                <p class="mt-3">Cho hàm số f(x) có đạo hàm liên tục trên R. Biết f(4) = 1 và ∫<sub>0</sub><sup>1</sup> xf(4x)dx = 1, khi đó ∫<sub>0</sub><sup>4</sup> x²f²(x)dx bằng</p>
+                                <form>
+                                    <div class="form-check question-options">
+                                        <input type="radio" class="form-check-input" id="option1" name="question3" value="14">
+                                        <label class="form-check-label" for="option1">
+                                            A. 14
+                                        </label>
+                                    </div>
+                                    <div class="form-check question-options">
+                                        <input type="radio" class="form-check-input" id="option2" name="question3" value="31/2">
+                                        <label class="form-check-label" for="option2">
+                                            B. 31/2
+                                        </label>
+                                    </div>
+                                    <div class="form-check question-options">
+                                        <input type="radio" class="form-check-input" id="option3" name="question3" value="8">
+                                        <label class="form-check-label" for="option3">
+                                            C. 8
+                                        </label>
+                                    </div>
+                                    <div class="form-check question-options">
+                                        <input type="radio" class="form-check-input" id="option4" name="question3" value="-16">
+                                        <label class="form-check-label" for="option4">
+                                            D. -16
+                                        </label>
+                                    </div>
+                                </form>
                                 <hr>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item" style="border: none;">
-                                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
-                                            id="firstRadio" checked>
-                                        <label class="form-check-label" for="firstRadio">First radio</label>
-                                    </li>
-                                    <li class="list-group-item list-group-flush" style="border: none;">
-                                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
-                                            id="secondRadio">
-                                        <label class="form-check-label" for="secondRadio">Second radio</label>
-                                    </li>
-                                    <li class="list-group-item" style="border: none;">
-                                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
-                                            id="thirdRadio">
-                                        <label class="form-check-label" for="thirdRadio">Third radio</label>
-                                    </li>
-                                </ul>
+                                <div class="d-flex justify-content-center gap-4">
+                                    <button class="btn btn-primary">Câu trước</button>
+                                    <button class="btn btn-primary">Câu sau</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- hiện thông tin điểm kết quả -->
+                    <div class="col-12 mt-4">
+                        <div class="shadow rounded p-4">
+                            <h5 class="text-center">Kết quả</h5>
+                            <div class="d-flex justify-content-between p-2">
+                                <p class="fw-bold m-0">Tổng số câu hỏi:</p>
+                                <p class="fw-bold m-0">50</p>
+                            </div>
+                            <div class="d-flex justify-content-between p-2 border-top">
+                                <p class="fw-bold m-0">Số câu đã làm:</p>
+                                <p class="fw-bold m-0">50</p>
+                            </div>          
+                             <div class="d-flex justify-content-between p-2 border-top">
+                                <p class="fw-bold m-0">Số điểm:</p>
+                                <p class="fw-bold m-0">50</p>
                             </div>
                         </div>
 
-                        <div class="my-3">
-                            <nav aria-label="Page navigation example">
-                                <ul class="pagination m-0 justify-content-center">
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Previous">
-                                            <span aria-hidden="true">&laquo;</span>
-                                        </a>
-                                    </li>
-                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Next">
-                                            <span aria-hidden="true">&raquo;</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-
-                        <div class="mt-2">
-                            <button class="btn btn-primary w-100">Bắt đầu làm bài</button>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
-                        <h2>Môn cơ sở dữ liệu</h2>
-                    </div>
-                  </div>
+                </div>
             </main>
         </div>
 

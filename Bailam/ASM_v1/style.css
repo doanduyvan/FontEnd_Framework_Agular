@@ -10,3 +10,13 @@
     font-weight: 600;
     
 }
+
+
+/* chi tiet */
+
+.v-answer:hover{
+    background-color: #0d6efd;
+}
+.v-answer:hover span{
+    color: #fff;
+}
